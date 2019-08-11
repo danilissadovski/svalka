@@ -1,26 +1,25 @@
 import React from "react";
-import Info from "./components/info";
-import Form from "./components/form";
-import Shortcut from "./components/shortcut"
-import Getrid from "./components/getrid"
-import Text from "./components/text"
-import Text2 from "./components/text2"
+import Top from "./components/top";
+import Logo from "./components/logo";
+import Getrid from "./components/getrid";
+import Button from "./components/button";
+import Content from "./components/content";
+import Content2 from "./components/content2";
+import Footer from "./components/footer";
+import End from "./components/end";
 
 class App extends React.Component{
   render() {
     return(
-       <div>
-         <div>
-          <Info />
-          <Getrid />
-          <Text />
-         </div>
-         <div >
-          <Shortcut /> 
-          <Text2 />
-          <Form />
-          </div>
-         
+        <div>
+          <Top/>
+          <Logo/>
+          <Getrid/>
+          <Button/>
+          <Content/>
+          <Content2/>
+          <Footer/> 
+          <End/>
         </div>        
     );
   }

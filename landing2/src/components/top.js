@@ -3,22 +3,21 @@ import React from "react";
 class Top extends React.Component{
     render() {
       return(
-         <body>
             <header>         
                 <nav>
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="#" class="menu__item">
                                 Shortcut1
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" class="menu__item">
                                 Shortcut2
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" class="menu__item">
                                 Shortcut3
                             </a>
                         </li>
@@ -29,9 +28,7 @@ class Top extends React.Component{
                         </li>
                     </ul>
                 </nav>
-            </header>
-         </body>            
-
+            </header>           
        );
     }
   }

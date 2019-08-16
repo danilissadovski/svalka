@@ -3,7 +3,7 @@ body{
 }
 
 .menu__item{
-    margin-right: 50px;
+    margin-right: 50px;  
 }
 
 header nav{
@@ -230,7 +230,3 @@ header nav ul li button{
     word-spacing: 10px;
     color: rgba(43, 41, 45, 0.6);
 }
-
-
-
-

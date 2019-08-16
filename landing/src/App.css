@@ -2,13 +2,9 @@ body{
     background-color: #f08b77; 
 }
 
-
-
-
 .menu__item{
     margin-right: 50px;
 }
-
 
 header nav{
     float: right;
@@ -26,7 +22,6 @@ header nav ul{
 header nav ul li{
     list-style: none;
 }
-
 
 header nav ul li a:hover{
     background-color: #3040CC;
@@ -159,7 +154,7 @@ header nav ul li button{
 }
 
 .container-2{
-    background-color: #ff4f5f7;
+    background-color: #f4f5f7;
     font-size: 25px;
     line-height: 30px;
     word-spacing: 10px;

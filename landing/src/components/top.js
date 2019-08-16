@@ -7,17 +7,17 @@ class Top extends React.Component{
                 <nav>
                     <ul>
                         <li>
-                            <a href="#" class="menu__item">
+                            <a href="#" className="menu__item">
                                 Shortcut1
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="menu__item">
+                            <a href="#" className="menu__item">
                                 Shortcut2
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="menu__item">
+                            <a href="#" className="menu__item">
                                 Shortcut3
                             </a>
                         </li>

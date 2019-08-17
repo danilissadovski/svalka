@@ -1,0 +1,16 @@
+service: svalka-landing-page
+
+plugins:
+  - serverless-finch
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: dev
+  profile: gladyshev.pro
+  region: eu-central-1
+
+custom:
+  client:
+    bucketName: svalka-landing-page
+    distributionFolder: landing/build

@@ -1,7 +1,6 @@
 import React from "react";
 import {Jumbotron, Button, ButtonGroup} from 'reactstrap';
 
-
 export default (props) => {
   return (
       <div>

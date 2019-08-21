@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/custom.scss'
+//TODO remove that file after full migration to the bootstrap
 import './App.css';
 
 import * as serviceWorker from './serviceWorker';

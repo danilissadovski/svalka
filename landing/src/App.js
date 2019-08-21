@@ -1,27 +1,40 @@
-import React from "react";
+import React, {Component} from 'react';
 
-import Button from "./components/button";
+import Helmet from 'react-helmet';
+import Intro from "./components/intro";
 import Content from "./components/content";
 import Content2 from "./components/content2";
 import End from "./components/end";
 import Footer from "./components/footer";
-import Getrid from "./components/getrid";
 import Logo from "./components/logo";
 import Top from "./components/top";
 
-class App extends React.Component{
+class App extends Component {
+
   render() {
-    return(
+    return (
         <div>
+          <Helmet>
+            <style>{'body { background-color: #f08b77; }'}</style>
+          </Helmet>
           <Top/>
           <Logo/>
-          <Getrid/>
-          <Button/>
+          <div className="row py-3 px-lg-5 border bg-light">
+            <div className="col-4">
+              <Intro/>
+            </div>
+            <div className="col-4">
+              <Intro/>
+            </div>
+            <div className="col-4">
+              <Intro/>
+            </div>
+          </div>
           <Content/>
           <Content2/>
-          <Footer/> 
+          <Footer/>
           <End/>
-        </div>        
+        </div>
     );
   }
 }

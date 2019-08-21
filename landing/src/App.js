@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 
-import Helmet from 'react-helmet';
-import Intro from "./components/intro";
 import Content from "./components/content";
 import Content2 from "./components/content2";
+import Helmet from 'react-helmet';
+import Intro from "./components/intro";
 import End from "./components/end";
 import Footer from "./components/footer";
 import Logo from "./components/logo";

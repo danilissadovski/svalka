@@ -1,34 +1,24 @@
-import React from "react";
+import React from 'react';
+import {Button, Media, Input} from 'reactstrap';
 
-class Content2 extends React.Component{
-  render() {
-    return(
-        <div className="content-2">
-            <div className="container-2">
-                <div>
-                    <h1 className="text">
-                        Start your free membership.
-                    </h1>
-                    <p>
-                        We hate spam and will never bother <br/>
-                        you with any kind of advertisement
-                    </p>
-                    <form>
-                        <label>
-                            <input type="text" name="name" />
-                        </label>
-                        <button className="choto-4">
-                        <a>
-                            Get Started
-                        </a>
-                        </button>
-                    </form>
-                </div>
+const Example = () => {
+    return (
+        <Media>
+            <Media left href="#">
+                <Media data-src="./img/1.jpeg/1400×441" alt="Generic placeholder image" />
+            </Media>
+            <Media body>
+                <Media heading>
+                    Start your free membership.
+                </Media>
+                We hate spam and will never bother you with any kind of advertisement
+            </Media>
+            <div>
+            <Input type="email" name="email" id="exampleEmail" placeholder="Enter your email" />
+            <Button color="primary" className='ml-1'>Get Started</Button>
             </div>
-        </div>
- 
+        </Media>
     );
-  }
-}
+};
 
-export default Content2;
+export default Example;

@@ -1,36 +1,22 @@
-import React from "react";
+import React from 'react';
+import { Button, ButtonGroup } from 'reactstrap';
 
-class Top extends React.Component{
-    render() {
-      return(
-            <header>         
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#" className="menu__item">
-                                Shortcut1
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className="menu__item">
-                                Shortcut2
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className="menu__item">
-                                Shortcut3
-                            </a>
-                        </li>
-                        <li>
-                            <button>
-                                Get Started
-                            </button>
-                        </li>
-                    </ul>
-                </nav>
-            </header>           
-       );
-    }
-  }
-  
-  export default Top;
+const Example = () => {
+    return (
+        <div className="clearfix" style={{ padding: '.9rem' }}>
+            <div className="btn float-left px-lg-5">
+                <h1>SVALKA</h1>
+                <p>Important claim here</p>
+            </div>
+            <ButtonGroup className="btn btn-secondary float-right py-2">
+                <Button>Shortcut 1</Button>
+                <Button>Shortcut 2</Button>
+                <Button>Shortcut 3</Button>
+                <Button color="primary" className='ml-1'>Get Started</Button>
+            </ButtonGroup>
+        </div>
+    );
+};
+
+export default Example;
+

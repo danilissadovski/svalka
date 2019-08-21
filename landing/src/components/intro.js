@@ -15,8 +15,8 @@ export default (props) => {
           <hr className="my-2"/>
           <p className="lead">
             <ButtonGroup>
-              <Button color="alpha">Get Started</Button>
-              <Button color="primary" className='ml-1'>Learn More</Button>
+              <Button color="alpha">Learn More</Button>
+              <Button color="primary" className='ml-1'>Get Started</Button>
             </ButtonGroup>
           </p>
         </Jumbotron>

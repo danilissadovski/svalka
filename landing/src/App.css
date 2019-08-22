@@ -1,91 +1,3 @@
-body{
-    background-color: #f08b77; 
-}
-
-.menu__item{
-    margin-right: 50px;  
-}
-
-header nav{
-    float: right;
-    padding-top: 39px;
-    margin-left: 130px;
-    margin-right: 220px;
-}
-
-header nav ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-  
-header nav ul li{
-    list-style: none;
-}
-
-header nav ul li a:hover{
-    background-color: #3040CC;
-    color: #fff;
-    text-decoration: none;
-    transition: 0.3s;
-    padding: 20px;
-}
-  
-header nav ul li a{
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 0 30px;
-}
-  
-header nav ul li button{
-    background-color: #3040CC;
-    border: none;
-    color: white;
-    padding: 18px;
-}
-
-.top{
-    padding-top: 45px;
-    padding-left: 207px;
-    line-height: 0.1;
-    margin-left: 50px;
-}
-
-.Get-rid-of-stuff {
-    width: 754px;
-    height: 165px;
-    font-family: Monaco;
-    font-size: 80px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.98;
-    letter-spacing: -0.5px;
-    color: #2b292d;
-    padding-left: 126px;
-    padding-top: 177px;
-    margin-left: 130px;
-    margin-right: 100px;
-}
-
-.Give-things-you-no-l {
-    width: 490px;
-    height: 136px;
-    font-family: Monaco;
-    font-size: 24px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.42;
-    letter-spacing: normal;
-    color: #2b292d;
-    padding-left: 130px;
-    padding-top: 185px;
-    margin-left: 130px;
-    margin-right: 100px;
-}
-
 .choto{
     padding-left: 126px;
     padding-top: 150px;
@@ -141,7 +53,7 @@ header nav ul li button{
 
 .container{
     background-color: #f4f5f7;
-    font-size: 25px;
+    font-size: 20px;
     word-spacing: 8px;
     line-height: 30px;
     display: flex;
@@ -218,8 +130,6 @@ header nav ul li button{
 }
 
 .container-4{
-    width: 183px;
-    height: 22px;
     font-family: WorkSans;
     font-size: 14px;
     font-weight: normal;
@@ -229,4 +139,8 @@ header nav ul li button{
     letter-spacing: normal;
     word-spacing: 10px;
     color: rgba(43, 41, 45, 0.6);
+}
+
+.content-2-3{
+    padding-bottom: 120px;
 }

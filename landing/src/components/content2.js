@@ -3,9 +3,8 @@ import {Button, Media, Input} from 'reactstrap';
 
 const Example = () => {
     return (
-        <Media>
+        <Media className="content-2-3">
             <Media left href="#">
-                <Media data-src="./img/1.jpeg/1400×441" alt="Generic placeholder image" />
             </Media>
             <Media body>
                 <Media heading>

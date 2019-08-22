@@ -3,8 +3,8 @@ import React from "react";
 class Content extends React.Component{
   render() {
     return(
-        <div className="content">
-            <div className="container">
+        <div className="content bg-light">
+            <div className="container bg-light px-lg-5 py-3">
             <div>
                 <p>What kind of stuff you accept?</p>
                 We accept everything that can be put <br/>

@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
+import { Media } from 'reactstrap';
 
-class Footer extends React.Component{
-  render() {
-    return(
-        <div className="row py-3 bg-white px-lg-5">
+const Footer = () => {
+    return (
+        <Media className="row py-3 bg-white px-lg-5">
             <h5 className="col-4">
                 SVALKA
                 <h6>Important claim here</h6>
@@ -13,10 +13,10 @@ class Footer extends React.Component{
             <div className="col-4 px-lg-5 container-4">
                 Shortcut1
                 Shortcut2
-                Shortcut3</div>
-        </div>
+                Shortcut3
+            </div>
+        </Media>
     );
-  }
-}
+};
 
 export default Footer;

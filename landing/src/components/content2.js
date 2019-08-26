@@ -1,7 +1,7 @@
 import React from 'react';
 import {Button, Media, Input} from 'reactstrap';
 
-const Example = () => {
+const Content2 = () => {
     return (
         <Media className="content-2-3">
             <Media left href="#">
@@ -20,4 +20,4 @@ const Example = () => {
     );
 };
 
-export default Example;
+export default Content2;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, ButtonGroup } from 'reactstrap';
 
-const Example = () => {
+const Top = () => {
     return (
         <div className="clearfix" style={{ padding: '.9rem' }}>
             <div className="btn float-left px-lg-5">
@@ -18,5 +18,4 @@ const Example = () => {
     );
 };
 
-export default Example;
-
+export default Top;

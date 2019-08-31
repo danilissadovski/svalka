@@ -67,3 +67,25 @@
 .text-style-2{
     color: rgba(43, 41, 45, 0.9);
 }
+
+.Start-your-free-memb {
+    font-family: Monaco;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: -0.25px;
+    color: #2b292d;
+}
+
+.We-hate-spam-and-wil {
+    font-family: Monaco;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 0.9);
+}

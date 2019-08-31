@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardText, Row, Col } from 'reactstrap';
 
-const Example = (props) => {
+const Content = (props) => {
     return (
         <Row>
             <Col sm="6">
@@ -32,5 +32,4 @@ const Example = (props) => {
     );
 };
 
-export default Example;
-
+export default Content;

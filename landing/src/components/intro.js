@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardText, CardBody, CardTitle, Button, ButtonGroup } from 'reactstrap';
 
-const Example = (props) => {
+const Intro = (props) => {
   return (
       <div className="card">
         <Card>
@@ -30,4 +30,4 @@ const Example = (props) => {
   );
 };
 
-export default Example;
+export default Intro;

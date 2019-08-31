@@ -1,22 +1,28 @@
 import React from 'react';
-import {Button, Media, Input} from 'reactstrap';
+import { Card, CardText, CardBody, CardTitle, Button, Input, Col, Row } from 'reactstrap';
 
-const Content2 = () => {
+const Content2 = (props) => {
     return (
-        <Media className="content-2-3">
-            <Media left href="#">
-            </Media>
-            <Media body>
-                <Media heading>
-                    Start your free membership.
-                </Media>
-                We hate spam and will never bother you with any kind of advertisement
-            </Media>
-            <div>
-            <Input type="email" name="email" id="exampleEmail" placeholder="Enter your email" />
-            <Button color="primary" className='ml-1'>Get Started</Button>
-            </div>
-        </Media>
+        <div>
+            <Card>
+                <CardBody>
+                    <CardTitle className="Start-your-free-memb">Start your free membership</CardTitle>
+                    <CardText className="We-hate-spam-and-wil">We hate spam and
+                        will never bother
+                        you with any kind of advertisement</CardText>
+                    <Row>
+                    <Col sm={6}>
+                        <Input type="email" name="email" id="exampleEmail"
+                               placeholder="Enter your email" />
+                    </Col>
+                        <Col>
+                    <Button color="primary" sm={6} className="ml-1">Get Started</Button>
+                        </Col>
+                    </Row>
+
+                </CardBody>
+            </Card>
+        </div>
     );
 };
 

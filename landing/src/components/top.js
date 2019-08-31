@@ -1,19 +1,19 @@
 import React from 'react';
-import { Button, ButtonGroup } from 'reactstrap';
+import { Button } from 'reactstrap';
 
 const Top = () => {
     return (
-        <div className="clearfix" style={{ padding: '.9rem' }}>
-            <div className="btn float-left px-lg-5">
-                <h1>SVALKA</h1>
-                <p>Important claim here</p>
+        <div className="container-fluid" style={{ padding: '.9rem' }}>
+            <div className="float-left col-sm-4">
+                <h1 className="SVALKA-Important-cla">SVALKA</h1>
+                <p className="text-style-1">Important claim here</p>
             </div>
-            <ButtonGroup className="btn btn-secondary float-right py-2">
-                <Button>Shortcut 1</Button>
-                <Button>Shortcut 2</Button>
-                <Button>Shortcut 3</Button>
-                <Button color="primary" className='ml-1'>Get Started</Button>
-            </ButtonGroup>
+            <div className="float-right py-2 row Shortcut1-Shortcut2">
+                <Button caret color="white" className="col-sm px-lg-5">Shortcut 1</Button>
+                <Button caret color="white" className="col-sm px-lg-5">Shortcut 2</Button>
+                <Button caret color="white" className="col-sm px-lg-5">Shortcut 3</Button>
+                <Button color="primary" className='ml-1 col-sm px-lg-5'>Get Started</Button>
+            </div>
         </div>
     );
 };

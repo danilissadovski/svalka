@@ -1,25 +1,36 @@
 import React from 'react';
-import { Media } from 'reactstrap';
+import { Card, CardText, Row, Col } from 'reactstrap';
 
-const Content = () => {
+const Example = (props) => {
     return (
-        <Media className="content bg-light">
-            <div className="container bg-light px-lg-5 py-3">
-                <div>
-                    <p>What kind of stuff you accept?</p>
-                    We accept everything that can be put <br/>
-                    in a small truck including furniture, <br/>
-                    electronics, clothes and so on
-                </div>
-                <div>
-                    <p>What do you do with my stuff?</p>
-                    We refurbish old things and sell it to <br/>
-                    the people who cannot afford or don’t <br/>
-                    want to buy brand new stuff
-                </div>
-            </div>
-        </Media>
+        <Row>
+            <Col sm="6">
+                <Card body>
+                    <CardText className="What-kind-of-stuff-y">
+                        <p>What kind of stuff you accept?</p>
+                        <div  className="text-style-2">
+                        We accept everything that can be put<br/>
+                        in a small truck including furniture, <br/>
+                        electronics, clothes and so on.
+                        </div>
+                    </CardText>
+                </Card>
+            </Col>
+            <Col sm="6">
+                <Card body>
+                    <CardText className="What-kind-of-stuff-y">
+                        <p>What do you do with my stuff?</p>
+                        <div  className="text-style-2">
+                        We refurbish old things and sell it to <br/>
+                        the people who cannot afford or don’t <br/>
+                        want to buy brand new stuff
+                        </div>
+                    </CardText>
+                </Card>
+            </Col>
+        </Row>
     );
 };
 
-export default Content;
+export default Example;
+

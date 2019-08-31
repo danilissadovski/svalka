@@ -1,39 +1,69 @@
-.content{
-    background-color: #f4f5f7;
-    padding-top: 60px;
-    margin-top: 100px;
-    padding-bottom: 160px;
-}
-
-.container{
-    background-color: #f4f5f7;
-    font-size: 20px;
-    word-spacing: 8px;
-    line-height: 30px;
-    display: flex;
-    justify-content: space-between; 
-    line-height: 40px;
-}
-
-.content-4{
-    background-color: #fff;    
-    padding-top: 8px;
-    padding-left: 257px;
-    padding-bottom: 8px;
-}
-
-.container-4{
-    font-family: WorkSans;
-    font-size: 14px;
+.Shortcut1-Shortcut2 {
+    font-family: Monaco;
+    font-size: 18px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.57;
+    line-height: 1.39;
     letter-spacing: normal;
-    word-spacing: 10px;
+    text-align: right;
+    color: #2b292d;
+}
+
+.SVALKA-Important-cla {
+    font-family: Monaco;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 1);
+}
+
+.text-style-1 {
+    font-family: Monaco;
+    font-size: 20px;
     color: rgba(43, 41, 45, 0.6);
 }
 
-.content-2-3{
-    padding-bottom: 120px;
+.Get-rid-of-stuff {
+    font-family: Monaco;
+    font-size: 80px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.98;
+    letter-spacing: -0.5px;
+    color: #2b292d;
+}
+
+.Give-things-you-no-l {
+    font-family: Monaco;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #2b292d;
+}
+
+.card {
+    background-color: #f08b77;
+}
+
+.What-kind-of-stuff-y {
+    font-family: Monaco;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: #2b292d;
+}
+
+.text-style-2{
+    color: rgba(43, 41, 45, 0.9);
 }

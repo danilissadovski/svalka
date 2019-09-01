@@ -9,9 +9,9 @@ const Top = () => {
                 <p className="text-style-1">Important claim here</p>
             </div>
             <div className="float-right py-2 row Shortcut1-Shortcut2">
-                <Button caret color="white" className="col-sm px-lg-5">Shortcut 1</Button>
-                <Button caret color="white" className="col-sm px-lg-5">Shortcut 2</Button>
-                <Button caret color="white" className="col-sm px-lg-5">Shortcut 3</Button>
+                <Button caret color="white" className="col-sm px-lg-5">Shortcut1</Button>
+                <Button caret color="white" className="col-sm px-lg-5">Shortcut2</Button>
+                <Button caret color="white" className="col-sm px-lg-5">Shortcut3</Button>
                 <Button color="primary" className='ml-1 col-sm px-lg-5'>Get Started</Button>
             </div>
         </div>

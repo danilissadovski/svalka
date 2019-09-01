@@ -5,8 +5,9 @@ import Content from "./components/content";
 import Content2 from "./components/content2";
 import Intro from "./components/intro";
 // import End from "./components/end";
-// import Footer from "./components/footer";
+//import Footer from "./components/footer";
 import Top from "./components/top";
+
 
 class App extends Component {
 
@@ -24,8 +25,12 @@ class App extends Component {
                     <div className="py-5">
                         <div className="py-5">
                             <div className="py-5">
-                                <div className="py-5 col-sm-4">
-                                    <Intro/>
+                                <div className="py-5">
+                                    <div className="py-5">
+                                        <div className="py-5">
+                                            <Intro/>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +45,9 @@ class App extends Component {
                                 </div>
                             </div>
                     </div>
-                    {/*<Footer/>*/}
+                    {/*<div className="py-5">*/}
+                    {/*    <Footer/>*/}
+                    {/*</div>*/}
                     {/*  <End/>*/}
                 </div>
             </div>

@@ -9,9 +9,9 @@ const Content = (props) => {
                     <CardText className="What-kind-of-stuff-y">
                         <p>What kind of stuff you accept?</p>
                         <div  className="text-style-2">
-                        We accept everything that can be put<br/>
-                        in a small truck including furniture, <br/>
-                        electronics, clothes and so on.
+                            We accept everything that can be put<br/>
+                            in a small truck including furniture, <br/>
+                            electronics, clothes and so on.
                         </div>
                     </CardText>
                 </Card>
@@ -21,9 +21,9 @@ const Content = (props) => {
                     <CardText className="What-kind-of-stuff-y">
                         <p>What do you do with my stuff?</p>
                         <div  className="text-style-2">
-                        We refurbish old things and sell it to <br/>
-                        the people who cannot afford or don’t <br/>
-                        want to buy brand new stuff
+                            We refurbish old things and sell it to <br/>
+                            the people who cannot afford or don’t <br/>
+                            want to buy brand new stuff
                         </div>
                     </CardText>
                 </Card>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, CardText, Row, Col } from 'reactstrap';
+import logo from './../assets/logo.jpg';
 
 const Content = (props) => {
     return (
@@ -18,14 +19,7 @@ const Content = (props) => {
             </Col>
             <Col sm="6">
                 <Card body>
-                    <CardText className="What-kind-of-stuff-y">
-                        <p>What do you do with my stuff?</p>
-                        <div  className="text-style-2">
-                        We refurbish old things and sell it to <br/>
-                        the people who cannot afford or don’t <br/>
-                        want to buy brand new stuff
-                        </div>
-                    </CardText>
+                    <img src={logo} height = "auto" width = "100%"/>
                 </Card>
             </Col>
         </Row>

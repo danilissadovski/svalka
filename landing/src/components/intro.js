@@ -1,9 +1,11 @@
 import React from 'react';
-import { Card, CardText, CardBody, CardTitle, Button, ButtonGroup } from 'reactstrap';
+import {Card, CardText, CardBody, CardTitle, Button, ButtonGroup, Row, Col} from 'reactstrap';
+import logo from './../assets/logo.jpg';
 
 const Intro = (props) => {
   return (
-      <div className="card">
+      <Row>
+        <Col sm="6">
         <Card>
           <CardBody>
             <CardTitle>
@@ -26,7 +28,13 @@ const Intro = (props) => {
             </p>
           </CardBody>
         </Card>
-      </div>
+        </Col>
+          <Col sm="6">
+            <Card body>
+              <img src={logo} height = "auto" width = "100%"/>
+            </Card>
+          </Col>
+      </Row>
   );
 };
 

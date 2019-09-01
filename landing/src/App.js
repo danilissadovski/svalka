@@ -22,13 +22,7 @@ class App extends Component {
                         <Top/>
                     </div>
                     <div className="py-5">
-                        <div className="py-5">
-                            <div className="py-5">
-                                <div className="py-5 col-sm-4">
-                                    <Intro/>
-                                </div>
-                            </div>
-                        </div>
+                         <Intro/>
                     </div>
                     <div>
                         <Content/>

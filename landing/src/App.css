@@ -89,3 +89,12 @@
     letter-spacing: normal;
     color: rgba(43, 41, 45, 0.9);
 }
+
+.logo-fix{
+    border-radius: 13px;
+    margin-top: 15px;
+}
+
+.text-fix{
+    line-height: 11px;
+}

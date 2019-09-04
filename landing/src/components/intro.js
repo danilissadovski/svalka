@@ -22,7 +22,7 @@ const Content = (props) => {
                         <hr className="my-2"/>
                         <p className="lead">
                             <ButtonGroup>
-                                <Button color="alpha">Learn More</Button>
+                                <Button outline color="primary">Learn More</Button>
                                 <Button color="primary" className="ml-1">Get Started</Button>
                             </ButtonGroup>
                         </p>

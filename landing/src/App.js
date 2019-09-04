@@ -8,7 +8,6 @@ import Intro from "./components/intro";
 //import Footer from "./components/footer";
 import Top from "./components/top";
 
-
 class App extends Component {
 
   render() {
@@ -22,18 +21,8 @@ class App extends Component {
                     <div>
                         <Top/>
                     </div>
-                    <div className="py-5">
-                        <div className="py-5">
-                            <div className="py-5">
-                                <div className="py-5">
-                                    <div className="py-5">
-                                        <div className="py-5">
-                                            <Intro/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="for-intro">
+                        <Intro/>
                     </div>
                     <div>
                         <Content/>

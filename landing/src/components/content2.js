@@ -22,8 +22,8 @@ const Content2 = (props) => {
                                 <Input type="email" name="email" id="exampleEmail"
                                        placeholder="Enter your email" />
                             </Col>
-                            <Col>
-                                <Button color="primary" sm={6} className="ml-1">Get Started</Button>
+                            <Col sm={6} >
+                                <Button color="primary"className="ml-1 for-button">Get Started</Button>
                             </Col>
                         </Row>
                     </CardBody>

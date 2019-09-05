@@ -31,7 +31,7 @@ const Content = (props) => {
             </Col>
             <Col sm="8">
                 <Card body>
-                    <img src={logo} height = "auto" width = "100%"/>
+                    <img src={logo} height = "auto" width = "auto"/>
                 </Card>
             </Col>
         </Row>

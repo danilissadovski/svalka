@@ -10,7 +10,7 @@ const Content2 = (props) => {
                     <img src={logo} height = "auto" width = "100%"/>
                 </Card>
             </Col>
-            <Col sm="8" className="py-5">
+            <Col sm="8" className="for-content-2">
                 <Card>
                     <CardBody>
                         <CardTitle className="Start-your-free-memb">Start your free membership</CardTitle>
@@ -23,7 +23,7 @@ const Content2 = (props) => {
                                        placeholder="Enter your email" />
                             </Col>
                             <Col sm={6} >
-                                <Button color="primary"className="ml-1 for-button">Get Started</Button>
+                                <Button color="primary"className="ml-1">Get Started</Button>
                             </Col>
                         </Row>
                     </CardBody>

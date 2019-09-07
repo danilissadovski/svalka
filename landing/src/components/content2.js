@@ -1,35 +1,44 @@
 import React from 'react';
-import { Card, CardText, CardBody, CardTitle, Button, Input, Col, Row } from 'reactstrap';
+import {
+    Media,
+    Row,
+    Col,
+    Container,
+    Input,
+    Button
+} from 'reactstrap';
 import logo from './../images/logo.jpeg';
 
-const Content2 = (props) => {
+const Content2 = () => {
     return (
-        <Row>
-            <Col sm="4">
-                <Card body>
-                    <img src={logo} height = "auto" width = "100%"/>
-                </Card>
-            </Col>
-            <Col sm="8" className="for-content-2">
-                <Card>
-                    <CardBody>
-                        <CardTitle className="Start-your-free-memb">Start your free membership</CardTitle>
-                            <CardText className="We-hate-spam-and-wil">We hate spam and
+        <Container fluid className="bg">
+            <Media>
+                <Row>
+                    <Media className="col-sm-5 image-fix">
+                        <img src={logo} height = "auto" width = "100%"/>
+                    </Media>
+                    <Media body className="col-sm-7 start-your-free-fix">
+                        <Media heading className="Start-your-free-memb">
+                            Start your free membership
+                        </Media>
+                        <div className="We-hate-spam-and-wil">
+                            We hate spam and
                             will never bother
-                            you with any kind of advertisement</CardText>
-                        <Row>
-                            <Col sm={6}>
+                            you with any kind of advertisement
+                        </div>
+                        <Row className="py-2">
+                            <Col sm="auto">
                                 <Input type="email" name="email" id="exampleEmail"
                                        placeholder="Enter your email" />
                             </Col>
-                            <Col sm={6} >
+                            <Col sm="auto">
                                 <Button color="primary"className="ml-1">Get Started</Button>
                             </Col>
                         </Row>
-                    </CardBody>
-                </Card>
-            </Col>
-        </Row>
+                    </Media>
+                </Row>
+            </Media>
+        </Container>
     );
 };
 

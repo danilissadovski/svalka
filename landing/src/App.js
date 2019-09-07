@@ -12,34 +12,20 @@ class App extends Component {
 
   render() {
     return (
-        <div className="px-lg-5">
-            <div className="px-lg-5">
-                <div className="px-lg-5">
-                    <Helmet>
-                        <style>{'body { background-color: #f08b77; }'}</style>
-                    </Helmet>
-                    <div>
-                        <Top/>
-                    </div>
-                    <div className="for-intro">
-                        <Intro/>
-                    </div>
-                    <div>
-                        <Content/>
-                            <div className="py-5">
-                                <div className="py-5">
-                                    <div className="float-right py-5">
-                                        <Content2/>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
+        <div>
+            <Helmet>
+                <style>{'body { background-color: #f08b77; }'}</style>
+            </Helmet>
+            <Top/>
+            <div className="for-intro">
+                <Intro/>
+            </div>
+                <Content/>
+                <Content2/>
                     {/*<div className="py-5">*/}
                     {/*    <Footer/>*/}
                     {/*</div>*/}
                     {/*  <End/>*/}
-                </div>
-            </div>
         </div>
     );
   }

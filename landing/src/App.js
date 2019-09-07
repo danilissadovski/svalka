@@ -4,7 +4,6 @@ import Helmet from 'react-helmet';
 import Content from "./components/content";
 import Content2 from "./components/content2";
 import Intro from "./components/intro";
-// import End from "./components/end";
 //import Footer from "./components/footer";
 import Top from "./components/top";
 
@@ -20,12 +19,9 @@ class App extends Component {
             <div className="for-intro">
                 <Intro/>
             </div>
-                <Content/>
-                <Content2/>
-                    {/*<div className="py-5">*/}
-                    {/*    <Footer/>*/}
-                    {/*</div>*/}
-                    {/*  <End/>*/}
+            <Content/>
+            <Content2/>
+            {/*<Footer/>*/}
         </div>
     );
   }

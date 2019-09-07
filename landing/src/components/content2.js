@@ -17,7 +17,7 @@ const Content2 = () => {
                     <Media className="col-sm-5 image-fix">
                         <img src={logo} height = "auto" width = "100%"/>
                     </Media>
-                    <Media body className="col-sm-7 start-your-free-fix">
+                    <Media body className="col-sm-7">
                         <Media heading className="Start-your-free-memb">
                             Start your free membership
                         </Media>

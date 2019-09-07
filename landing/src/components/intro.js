@@ -13,14 +13,14 @@ const Intro = () => {
         <Container fluid>
             <Media>
                 <Row>
-                    <Media body className="col-auto">
+                    <Media body className="col-sm-5">
                         <Media heading>
                             <h3 className="Get-rid-of-stuff">Get rid of stuff </h3>
                         </Media>
                         <div  className="lead Give-things-you-no-l ">
-                            Give things you no longer use
-                            to the ones in need by
-                            requesting our free pickup
+                            Give things you no longer use <br/>
+                            to the ones in need by <br/>
+                            requesting our free pickup <br/>
                             service
                         </div>
                          <hr className="my-2"/>
@@ -31,7 +31,7 @@ const Intro = () => {
                              </ButtonGroup>
                          </p>
                     </Media>
-                        <Media className="col-auto">
+                        <Media className="col-sm-7">
                             <img src={logo} height = "auto" width = "100%"/>
                         </Media>
                 </Row>

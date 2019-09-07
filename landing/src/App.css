@@ -53,8 +53,6 @@
     background-color: #f08b77;
 }
 
-
-
 .Start-your-free-memb {
     font-family: Monaco;
     font-size: 40px;
@@ -110,6 +108,12 @@
     padding-bottom: 4%;
 }
 
+.bg-2{
+    background-color: #ffffff;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
 .image-fix{
     padding-left: 10%;
 }
@@ -133,4 +137,37 @@
     .text-style-2{
         color: rgba(43, 41, 45, 0.9);
     }
+}
+
+.Some-reminder-for-th {
+    font-family: Monaco;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.Shortcut1-Shortcut2-3 {
+    font-family: Monaco;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.Terms-Privacy-Licens {
+    font-family: WorkSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 0.6);
 }

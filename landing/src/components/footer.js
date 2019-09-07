@@ -46,7 +46,7 @@ import {
     Nav
 } from 'reactstrap';
 
-const Content = () => {
+const Footer = () => {
     return (
         <Container fluid className="bg-2">
             <Media>
@@ -81,4 +81,4 @@ const Content = () => {
     );
 };
 
-export default Content;
+export default Footer;

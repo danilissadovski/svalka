@@ -21,7 +21,6 @@ class App extends Component {
             </div>
             <Content/>
             <Content2/>
-            {/*<Footer/>*/}
         </div>
     );
   }

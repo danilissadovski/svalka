@@ -1,26 +1,29 @@
-import React from "react";
+import React from 'react';
+import {
+    Media,
+    Container
+} from 'reactstrap';
 
-class Content extends React.Component{
-  render() {
-    return(
-        <div className="content">
-            <div className="container">
-            <div>
-                <p>What kind of stuff you accept?</p>
-                We accept everything that can be put <br/>
-                in a small truck including furniture, <br/>
-                electronics, clothes and so on
-            </div>
-            <div>
-               <p>What do you do with my stuff?</p>
-                We refurbish old things and sell it to <br/>
-                the people who cannot afford or don’t <br/>
-                want to buy brand new stuff
-            </div>
-            </div>
-        </div> 
+const Content = () => {
+    return (
+        <Container fluid className="bg">
+            <Media>
+                <Media body className="col-auto">
+                    <Media heading className="heading-for-the-second-block col">What kind of stuff you accept?</Media>
+                    <div className="text-for-the-second-block">We accept everything that can be put in a small truck including
+                        furniture, electronics, clothes and so on</div>
+                </Media>
+                <Media body className="col-auto">
+                    <Media heading className="heading-for-the-second-block col">
+                        What do you do with my stuff?
+                    </Media>
+                    <div className="text-for-the-second-block">
+                        We refurbish old things and sell it to the people who cannot afford or don’t want to buy brand
+                        new stuff </div>
+                </Media>
+            </Media>
+        </Container>
     );
-  }
-}
+};
 
 export default Content;

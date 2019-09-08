@@ -1,36 +1,59 @@
 import React from "react";
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    Container,
+    Button
+} from "reactstrap";
+import logo from './../images/logo.jpeg';
 
-class Top extends React.Component{
-    render() {
-      return(
-            <header>         
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#" className="menu__item">
-                                Shortcut1
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className="menu__item">
-                                Shortcut2
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className="menu__item">
-                                Shortcut3
-                            </a>
-                        </li>
-                        <li>
-                            <button>
-                                Get Started
-                            </button>
-                        </li>
-                    </ul>
-                </nav>
-            </header>           
-       );
+class Top extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.toggle = this.toggle.bind(this);
+        this.state = {
+            isOpen: false
+        };
     }
-  }
-  
-  export default Top;
+    toggle() {
+        this.setState({
+            isOpen: !this.state.isOpen
+        });
+    }
+    render() {
+        return (
+            <Navbar dark expand="md">
+                <Container fluid>
+                    <img src={logo} height = "60px" width = "60px" className="logo-fix"/>
+                    <NavbarBrand className="text-fix px-lg-2">
+                        <h1 className="header">SVALKA</h1>
+                        <p className="text-style-for-header">Important claim here</p>
+                    </NavbarBrand>
+                    <NavbarToggler onClick={this.toggle} />
+                    <Collapse isOpen={this.state.isOpen} navbar>
+                        <Nav className="ml-auto" navbar>
+                            <NavItem>
+                                <NavLink href="#">Shortcut1</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="#">Shortcut2</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="#">Shortcut3</NavLink>
+                            </NavItem>
+                            <Button color="primary" className="ml-1">Get Started</Button>{" "}
+                        </Nav>
+                    </Collapse>
+                </Container>
+            </Navbar>
+        );
+    }
+}
+
+export default Top;

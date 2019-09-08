@@ -4,7 +4,6 @@ import Helmet from 'react-helmet';
 import Content from "./components/content";
 import Content2 from "./components/content2";
 import Intro from "./components/intro";
-//import Footer from "./components/footer";
 import Top from "./components/top";
 
 class App extends Component {
@@ -16,7 +15,7 @@ class App extends Component {
                 <style>{'body { background-color: #f08b77; }'}</style>
             </Helmet>
             <Top/>
-            <div className="for-intro">
+            <div className="indentation">
                 <Intro/>
             </div>
             <Content/>

@@ -18,18 +18,12 @@ const Content2 = () => {
                         <img src={logo} height = "auto" width = "100%"/>
                     </Media>
                     <Media body className="col-sm-7">
-                        <Media heading className="Start-your-free-memb">
-                            Start your free membership
-                        </Media>
-                        <div className="We-hate-spam-and-wil">
-                            We hate spam and
-                            will never bother
-                            you with any kind of advertisement
-                        </div>
+                        <Media heading className="heading-for-the-third-block">Start your free membership</Media>
+                        <div className="text-for-the-third-block">We hate spam and will never bother
+                            you with any kind of advertisement</div>
                         <Row className="py-2">
                             <Col sm="auto">
-                                <Input type="email" name="email" id="exampleEmail"
-                                       placeholder="Enter your email" />
+                                <Input type="email" name="email" id="exampleEmail" placeholder="Enter your email" />
                             </Col>
                             <Col sm="auto">
                                 <Button color="primary"className="ml-1">Get Started</Button>

@@ -32,8 +32,8 @@ class Top extends React.Component {
                 <Container fluid>
                     <img src={logo} height = "60px" width = "60px" className="logo-fix"/>
                     <NavbarBrand className="text-fix px-lg-2">
-                        <h1 className="SVALKA-Important-cla">SVALKA</h1>
-                        <p className="text-style-1">Important claim here</p>
+                        <h1 className="header">SVALKA</h1>
+                        <p className="text-style-for-header">Important claim here</p>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>

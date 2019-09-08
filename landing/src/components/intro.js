@@ -15,14 +15,10 @@ const Intro = () => {
                 <Row>
                     <Media body className="col-sm-5">
                         <Media heading>
-                            <h3 className="Get-rid-of-stuff">Get rid of stuff </h3>
+                            <h3 className="heading-for-the-first-block">Get rid of stuff </h3>
                         </Media>
-                        <div  className="lead Give-things-you-no-l ">
-                            Give things you no longer use <br/>
-                            to the ones in need by <br/>
-                            requesting our free pickup <br/>
-                            service
-                        </div>
+                        <div  className="lead text-for-the-first-block">Give things you no longer use to the ones in need
+                            by requesting our free pickup service</div>
                          <hr className="my-2"/>
                          <p className="lead">
                              <ButtonGroup>
@@ -31,9 +27,9 @@ const Intro = () => {
                              </ButtonGroup>
                          </p>
                     </Media>
-                        <Media className="col-sm-7">
-                            <img src={logo} height = "auto" width = "100%"/>
-                        </Media>
+                    <Media className="col-sm-7">
+                        <img src={logo} height = "auto" width = "100%"/>
+                    </Media>
                 </Row>
             </Media>
         </Container>

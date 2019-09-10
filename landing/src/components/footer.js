@@ -11,7 +11,7 @@ const Footer = () => {
         <Container fluid className="bg-2">
             <Media>
                 <Media body className="col-sm-auto row">
-                    <img src={logo} height = "42px" width = "42px" className="logo-fix"/>
+                    <img src={logo} height = "48px" width = "48px" className="logo-fix"/>
                     <div className="text-fix-2 px-lg-2">
                         <h1 className="footer-header">SVALKA</h1>
                         <p className="text-style-for-footer">Important claim here</p>
@@ -21,7 +21,7 @@ const Footer = () => {
                     <div className="text-for-footer">
                         Some reminder for the users who scrolled <br/>
                         through the landing page and forgot why <br/>
-                        they are here in the first place.
+                        they are here in the first place
                     </div>
                 </Media>
                 <Nav>

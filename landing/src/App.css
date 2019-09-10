@@ -75,8 +75,8 @@
 }
 
 .container-fluid {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .bg{
@@ -123,7 +123,7 @@
 
 .text-for-footer {
     font-family: Monaco;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -134,7 +134,7 @@
 
 .shortcuts-for-footer {
     font-family: Monaco;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -145,7 +145,7 @@
 
 .Terms-Privacy-Licens {
     font-family: WorkSans;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -160,7 +160,7 @@
 
 .footer-header {
     font-family: Monaco;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -171,6 +171,6 @@
 
 .text-style-for-footer {
     font-family: Monaco;
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: rgba(43, 41, 45, 0.6);
 }

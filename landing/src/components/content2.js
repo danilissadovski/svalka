@@ -22,10 +22,10 @@ const Content2 = () => {
                         <div className="text-for-the-third-block">We hate spam and will never bother
                             you with any kind of advertisement</div>
                         <Row className="py-2">
-                            <Col sm="auto">
+                            <Col sm="6">
                                 <Input type="email" name="email" id="exampleEmail" placeholder="Enter your email" />
                             </Col>
-                            <Col sm="auto">
+                            <Col sm="6">
                                 <Button color="primary"className="ml-1">Get Started</Button>
                             </Col>
                         </Row>

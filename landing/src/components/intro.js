@@ -13,7 +13,7 @@ const Intro = () => {
         <Container fluid>
             <Media>
                 <Row>
-                    <Media body className="col-sm-5">
+                    <Media body className="col-lg-5 min-width-371-md">
                         <Media heading>
                             <h3 className="heading-for-the-first-block">Get rid of stuff </h3>
                         </Media>
@@ -27,7 +27,7 @@ const Intro = () => {
                              </ButtonGroup>
                          </p>
                     </Media>
-                    <Media className="col-sm-7">
+                    <Media className="col-lg-7">
                         <img src={logo} height = "auto" width = "100%"/>
                     </Media>
                 </Row>

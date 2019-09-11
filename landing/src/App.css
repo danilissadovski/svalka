@@ -57,6 +57,7 @@
 }
 
 .text-for-the-second-block {
+    padding-left: 1em;
     color: rgba(43, 41, 45, 0.9);
 }
 
@@ -75,8 +76,8 @@
 }
 
 .container-fluid {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .bg{
@@ -119,4 +120,58 @@
     line-height: 1.45;
     letter-spacing: normal;
     color: rgba(43, 41, 45, 0.9);
+}
+
+.text-for-footer {
+    font-family: Monaco;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.shortcuts-for-footer {
+    font-family: Monaco;
+    font-size: 0.9em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.Terms-Privacy-Licens {
+    font-family: WorkSans;
+    font-size: 0.9em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.text-fix-2{
+    line-height: 9px;
+}
+
+.footer-header {
+    font-family: Monaco;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 1);
+}
+
+.text-style-for-footer {
+    font-family: Monaco;
+    font-size: 0.8em;
+    color: rgba(43, 41, 45, 0.6);
 }

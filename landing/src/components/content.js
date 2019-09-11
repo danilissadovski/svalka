@@ -14,9 +14,7 @@ const Content = () => {
                         furniture, electronics, clothes and so on</div>
                 </Media>
                 <Media body className="col-auto">
-                    <Media heading className="heading-for-the-second-block col">
-                        What do you do with my stuff?
-                    </Media>
+                    <Media heading className="heading-for-the-second-block col">What do you do with my stuff?</Media>
                     <div className="text-for-the-second-block">
                         We refurbish old things and sell it to the people who cannot afford or don’t want to buy brand
                         new stuff </div>

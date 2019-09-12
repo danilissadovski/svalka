@@ -9,6 +9,10 @@
     color: rgba(43, 41, 45, 1);
 }
 
+.some-fix-for-shortcuts{
+    padding-left: 5%;
+}
+
 .logo-fix{
     border-radius: 13px;
 }
@@ -36,6 +40,7 @@
 
 .text-for-the-first-block {
     font-family: Monaco;
+    padding-top: 4%;
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
@@ -94,6 +99,7 @@
 
 .image-fix{
     padding-left: 10%;
+    padding-right: 10%;
 }
 
 .padding-for-the-third-block{

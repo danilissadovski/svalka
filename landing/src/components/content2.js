@@ -15,7 +15,7 @@ const Content2 = () => {
             <Media>
                 <Row>
                     <Media className="col-sm-5 image-fix">
-                        <img src={logo} height = "auto" width = "100%"/>
+                        <img src={logo} height = "200em" width = "200em"/>
                     </Media>
                     <Media body className="col-sm-7">
                         <Media heading className="heading-for-the-third-block">Start your free membership</Media>

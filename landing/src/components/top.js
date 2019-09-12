@@ -10,7 +10,7 @@ import {
     Container,
     Button
 } from "reactstrap";
-import logo from './../images/logo.jpeg';
+import logo from './../images/logo3.jpg';
 
 class Top extends React.Component {
     constructor(props) {
@@ -38,16 +38,18 @@ class Top extends React.Component {
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
+                            <NavItem className="px-lg-3">
                                 <NavLink href="#">Shortcut1</NavLink>
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="px-lg-3">
                                 <NavLink href="#">Shortcut2</NavLink>
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="px-lg-3">
                                 <NavLink href="#">Shortcut3</NavLink>
                             </NavItem>
-                            <Button color="primary" className="ml-1">Get Started</Button>{" "}
+                            <div className="px-lg-3">
+                                <Button color="primary" className="">Get Started</Button>{" "}
+                            </div>
                         </Nav>
                     </Collapse>
                 </Container>

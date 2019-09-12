@@ -6,6 +6,9 @@ import {
     Row, NavItem, NavLink
 } from 'reactstrap';
 import logo from './../images/logo.jpeg';
+import { ReactComponent as TwitterIcon } from './../icons/twitter.svg';
+import { ReactComponent as FacebookIcon } from './../icons/fb.svg';
+import { ReactComponent as InstagramIcon } from './../icons/ln.svg';
 
 const Footer = () => {
     return (
@@ -42,6 +45,17 @@ const Footer = () => {
             <hr className="my-2"/>
             <div className="Terms-Privacy-Licens-styles">
                 Terms    Privacy    License
+                <div className="float-right row">
+                    <div className="px-lg-3">
+                        <TwitterIcon/>
+                    </div>
+                    <div className="px-lg-3">
+                        <FacebookIcon/>
+                    </div>
+                    <div className="px-lg-3">
+                        <InstagramIcon/>
+                    </div>
+                </div>
             </div>
         </Container>
     );

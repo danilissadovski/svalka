@@ -27,6 +27,10 @@
     color: rgba(43, 41, 45, 0.6);
 }
 
+.style-for-button {
+    border-radius: 2px;
+}
+
 .heading-for-the-first-block {
     font-family: Monaco;
     font-size: 80px;
@@ -99,16 +103,15 @@
 
 .image-fix{
     padding-left: 10%;
-    padding-right: 10%;
 }
 
 .padding-for-the-third-block{
-    padding-top: 4.5%;
+    padding-top: 0.65%;
 }
 
 .heading-for-the-third-block {
     font-family: Monaco;
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -119,7 +122,7 @@
 
 .text-for-the-third-block {
     font-family: Monaco;
-    font-size: 22px;
+    font-size: 1.4em;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -145,7 +148,7 @@
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1;
+    line-height: 0.5;
     letter-spacing: normal;
     color: rgba(43, 41, 45, 0.6);
 }
@@ -180,4 +183,14 @@
     font-family: Monaco;
     font-size: 0.8em;
     color: rgba(43, 41, 45, 0.6);
+}
+
+.padding-for-the-footer{
+    padding-left: 2.75%;
+}
+
+.bg-for-footer{
+    background-color: #ffffff;
+    padding-top: 3%;
+    padding-bottom: 1%;
 }

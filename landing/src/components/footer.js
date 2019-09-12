@@ -12,16 +12,16 @@ import { ReactComponent as InstagramIcon } from './../icons/ln.svg';
 
 const Footer = () => {
     return (
-        <Container fluid className="bg-2">
+        <Container fluid className="bg-for-footer">
             <Row>
-                <Media body className="col-lg-5 row">
+                <Media body className="col-lg-4 row padding-for-the-footer">
                     <img src={logo} height = "48px" width = "48px" className="logo-fix"/>
                     <div className="text-fix-2 px-lg-2">
                         <h1 className="footer-header">SVALKA</h1>
                         <p className="text-style-for-footer">Important claim here</p>
                     </div>
                 </Media>
-                <Media body className="col-lg-5">
+                <Media body className="col-lg-6">
                     <div className="text-for-footer">
                         Some reminder for the users who scrolled through the landing page and forgot why they are here
                         in the first place</div>

@@ -22,8 +22,8 @@ const Intro = () => {
                          <hr className="my-2"/>
                          <p className="lead">
                              <ButtonGroup>
-                                <Button outline color="primary">Learn More</Button>
-                                <Button color="primary" className="ml-1">Get Started</Button>
+                                 <Button color="primary" className="ml-1 style-for-button">Get Started</Button>
+                                 <button type="button" className="btn btn-light style-for-button">Learn More</button>
                              </ButtonGroup>
                          </p>
                     </Media>

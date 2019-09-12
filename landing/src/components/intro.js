@@ -13,7 +13,7 @@ const Intro = () => {
         <Container fluid>
             <Media>
                 <Row>
-                    <Media body className="col-lg-5 min-width-371-md">
+                    <Media body className="col-lg-5">
                         <Media heading>
                             <h3 className="heading-for-the-first-block">Get rid of stuff </h3>
                         </Media>

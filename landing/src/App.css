@@ -139,12 +139,12 @@
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.67;
+    line-height: 1;
     letter-spacing: normal;
     color: rgba(43, 41, 45, 0.6);
 }
 
-.Terms-Privacy-Licens {
+.Terms-Privacy-Licens-styles {
     font-family: WorkSans;
     font-size: 0.9em;
     font-weight: normal;
@@ -174,10 +174,4 @@
     font-family: Monaco;
     font-size: 0.8em;
     color: rgba(43, 41, 45, 0.6);
-}
-
-@media (min-width: 768px) {
-    .min-width-371-md {
-        min-width: 371.82px;
-    }
 }

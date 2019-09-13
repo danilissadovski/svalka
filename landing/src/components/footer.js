@@ -3,7 +3,10 @@ import {
     Media,
     Container,
     Nav,
-    Row, NavItem, NavLink
+    Row,
+    NavItem,
+    NavLink,
+    NavbarBrand
 } from 'reactstrap';
 import logo from './../images/logo.jpeg';
 import { ReactComponent as TwitterIcon } from './../icons/twitter.svg';
@@ -15,9 +18,11 @@ const Footer = () => {
         <Container fluid className="bg-for-footer">
             <Row>
                 <Media body className="col-lg-4 row padding-for-the-footer">
-                    <img src={logo} height = "48px" width = "48px" className="logo-fix"/>
-                    <div className="text-fix-2 px-lg-2">
-                        <h1 className="footer-header">SVALKA</h1>
+                    <NavbarBrand href="#">
+                        <img src={logo} height = "48px" width = "48px" className="logo-fix"/>
+                    </NavbarBrand>
+                    <div className="text-fix-2">
+                        <NavbarBrand className="footer-header">SVALKA</NavbarBrand>
                         <p className="text-style-for-footer">Important claim here</p>
                     </div>
                 </Media>

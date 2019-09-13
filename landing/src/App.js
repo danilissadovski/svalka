@@ -13,6 +13,7 @@ class App extends Component {
     return (
         <div>
             <Helmet>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <style>{'body { background-color: #f08b77; }'}</style>
             </Helmet>
             <Top/>

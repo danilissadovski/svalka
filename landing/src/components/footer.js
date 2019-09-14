@@ -48,17 +48,39 @@ const Footer = () => {
                 </Nav>
             </Row>
             <hr className="my-2"/>
-            <div className="Terms-Privacy-Licens-styles">
-                Terms    Privacy    License
+            <div className="Terms-Privacy-Licens-styles float-left row">
+                <div className="px-lg-3">
+                    <a href="#">
+                        Terms
+                    </a>
+                </div>
+                <div className="px-lg-3">
+                    <a href="#">
+                        Privacy
+                    </a>
+                </div>
+                <div className="px-lg-3">
+                    <a href="#">
+                        License
+                    </a>
+                </div>
+            </div>
+            <div>
                 <div className="float-right row">
                     <div className="px-lg-3">
-                        <TwitterIcon/>
+                        <a href="#">
+                            <TwitterIcon/>
+                        </a>
                     </div>
                     <div className="px-lg-3">
-                        <FacebookIcon/>
+                        <a href="#">
+                            <FacebookIcon/>
+                        </a>
                     </div>
                     <div className="px-lg-3">
-                        <InstagramIcon/>
+                        <a href="#">
+                            <InstagramIcon/>
+                        </a>
                     </div>
                 </div>
             </div>

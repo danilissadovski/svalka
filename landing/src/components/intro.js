@@ -23,7 +23,7 @@ const Intro = () => {
                          <p className="lead">
                              <ButtonGroup>
                                  <Button color="primary"className="ml-1 style-for-button">Get Started</Button>
-                                 <Button color="light"className="ml-1 style-for-button">Get Started</Button>
+                                 <Button color="light"className="ml-1 style-for-button">Learn More</Button>
                              </ButtonGroup>
                          </p>
                     </Media>

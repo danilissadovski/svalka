@@ -6,7 +6,7 @@ import {
     Row,
     NavItem,
     NavLink,
-    NavbarBrand
+    NavbarBrand, NavbarToggler, Collapse, Button, Navbar
 } from 'reactstrap';
 import logo from './../images/logo.jpeg';
 import { ReactComponent as TwitterIcon } from './../icons/twitter.svg';

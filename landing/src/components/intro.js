@@ -2,7 +2,6 @@ import React from 'react';
 import {
     Media,
     Container,
-    Button,
     ButtonGroup,
     Row,
 } from 'reactstrap';
@@ -22,7 +21,7 @@ const Intro = () => {
                          <hr className="my-2"/>
                          <p className="lead">
                              <ButtonGroup>
-                                 <Button color="primary" className="ml-1 style-for-button">Get Started</Button>
+                                 <button type="button" className="btn btn-primary style-for-button">Get Started</button>
                                  <button type="button" className="btn btn-light style-for-button">Learn More</button>
                              </ButtonGroup>
                          </p>

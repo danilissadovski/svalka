@@ -4,6 +4,7 @@ import {
     Container,
     ButtonGroup,
     Row,
+    Button
 } from 'reactstrap';
 import logo from './../images/logo.jpeg';
 
@@ -16,13 +17,13 @@ const Intro = () => {
                         <Media heading>
                             <h3 className="heading-for-the-first-block">Get rid of stuff </h3>
                         </Media>
-                        <div  className="lead text-for-the-first-block">Give things you no longer use to the ones in need
-                            by requesting our free pickup service</div>
+                        <div  className="lead text-for-the-first-block">Give things you no longer use to the ones in
+                            need by requesting our free pickup service</div>
                          <hr className="my-2"/>
                          <p className="lead">
                              <ButtonGroup>
-                                 <button type="button" className="btn btn-primary style-for-button">Get Started</button>
-                                 <button type="button" className="btn btn-light style-for-button">Learn More</button>
+                                 <Button color="primary"className="ml-1 style-for-button">Get Started</Button>
+                                 <Button color="light"className="ml-1 style-for-button">Get Started</Button>
                              </ButtonGroup>
                          </p>
                     </Media>

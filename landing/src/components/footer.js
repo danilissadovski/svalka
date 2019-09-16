@@ -27,7 +27,7 @@ const Footer = () => {
                     </div>
                 </Media>
                 <Media body className="col-lg-6">
-                    <div className="text-for-footer">
+                    <div className="text-for-footer padding-for-the-text">
                         Some reminder for the users who scrolled through the landing page and forgot why they are here
                         in the first place</div>
                 </Media>

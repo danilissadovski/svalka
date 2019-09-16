@@ -103,12 +103,17 @@
 }
 
 .image-fix{
-    padding-left: 16.5%;
+    padding-left: 20%;
 }
 
 .padding-for-the-third-block{
     padding-top: 0.65%;
 }
+
+.padding-for-the-text{
+    padding-left: 2.8%;
+}
+
 
 .heading-for-the-third-block {
     font-family: Monaco;
@@ -195,4 +200,9 @@
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 8%;
+}
+
+
+.social-button div {
+    margin-right: 5px;
 }

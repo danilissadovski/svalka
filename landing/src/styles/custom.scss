@@ -3,23 +3,3 @@ $theme-colors: (
 );
 
 @import "~bootstrap/scss/bootstrap";
-
-.footer .row {
-  flex-flow: column;
-}
-.footer .row .col-lg-4 {
-  margin-top: 0.75em;
-  margin-left: 0.05em;
-}
-.footer .row .col-lg-6, .footer .row .col-lg-2 {
-  margin-top: 0.75em;
-}
-.social-button.row {
-  flex-flow: row;
-}
-.social-button div {
-  margin-right: 5px;
-}
-.p-name.row {
-  flex-flow: row;
-}

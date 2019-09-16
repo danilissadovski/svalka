@@ -15,9 +15,9 @@ import { ReactComponent as InstagramIcon } from './../icons/ln.svg';
 
 const Footer = () => {
     return (
-        <Container fluid className="bg-for-footer">
+        <Container fluid className="footer bg-for-footer">
             <Row>
-                <Media body className="col-lg-4 row padding-for-the-footer">
+                <Media body className="col-lg-4 p-name row padding-for-the-footer">
                     <NavbarBrand href="#">
                         <img src={logo} height = "48px" width = "48px" className="logo-fix"/>
                     </NavbarBrand>
@@ -50,7 +50,7 @@ const Footer = () => {
             <hr className="my-2"/>
             <div className="Terms-Privacy-Licens-styles">
                 Terms Privacy License
-                <div className="float-right row">
+                <div className="float-right social-button row">
                     <div className="px-lg-3">
                         <a href="#">
                             <TwitterIcon/>

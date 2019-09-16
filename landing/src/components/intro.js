@@ -3,7 +3,7 @@ import {
     Media,
     Container,
     ButtonGroup,
-    Row,
+    Row
 } from 'reactstrap';
 import logo from './../images/logo.jpeg';
 import StandardButton from "./standardButton";

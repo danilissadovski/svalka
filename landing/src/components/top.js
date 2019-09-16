@@ -28,7 +28,7 @@ class Top extends React.Component {
     }
     render() {
         return (
-            <Navbar dark expand="md" className="px-0">
+            <Navbar dark expand="md" className="px-2">
                 <Container fluid>
                     <img src={logo} height = "60px" width = "60px" className="logo-fix"/>
                     <NavbarBrand className="text-fix">

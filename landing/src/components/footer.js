@@ -6,7 +6,7 @@ import {
     Row,
     NavItem,
     NavLink,
-    NavbarBrand, NavbarToggler, Collapse, Button, Navbar
+    NavbarBrand
 } from 'reactstrap';
 import logo from './../images/logo.jpeg';
 import { ReactComponent as TwitterIcon } from './../icons/twitter.svg';
@@ -48,24 +48,8 @@ const Footer = () => {
                 </Nav>
             </Row>
             <hr className="my-2"/>
-            <div className="Terms-Privacy-Licens-styles float-left row">
-                <div className="px-lg-3">
-                    <a href="#">
-                        Terms
-                    </a>
-                </div>
-                <div className="px-lg-3">
-                    <a href="#">
-                        Privacy
-                    </a>
-                </div>
-                <div className="px-lg-3">
-                    <a href="#">
-                        License
-                    </a>
-                </div>
-            </div>
-            <div>
+            <div className="Terms-Privacy-Licens-styles">
+                Terms Privacy License
                 <div className="float-right row">
                     <div className="px-lg-3">
                         <a href="#">

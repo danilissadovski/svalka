@@ -4,9 +4,9 @@ import {
     Container,
     ButtonGroup,
     Row,
-    Button
 } from 'reactstrap';
 import logo from './../images/logo.jpeg';
+import StandardButton from "./standardButton";
 
 const Intro = () => {
     return (
@@ -22,8 +22,8 @@ const Intro = () => {
                          <hr className="my-2"/>
                          <p className="lead">
                              <ButtonGroup>
-                                 <Button color="primary"className="ml-1 style-for-button">Get Started</Button>
-                                 <Button color="light"className="ml-1 style-for-button">Learn More</Button>
+                                 <StandardButton color="primary" text="Get Started"/>
+                                 <StandardButton color="light" text="Learn More"/>
                              </ButtonGroup>
                          </p>
                     </Media>

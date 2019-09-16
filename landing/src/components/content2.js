@@ -20,11 +20,11 @@ const Content2 = () => {
                         <Media heading className="heading-for-the-third-block">Start your free membership</Media>
                         <div className="text-for-the-third-block">We hate spam and will never bother
                             you with any kind of advertisement</div>
-                        <Row className="py-2">
+                        {/*<Row className="py-2">*/}
                                 <Input type="email" name="email" id="exampleEmail" placeholder="Enter your email"
                                        className="col-6"/>
                                 <Button color="primary"className="ml-1">Get Started</Button>
-                        </Row>
+                        {/*</Row>*/}
                     </Media>
                 </Row>
             </Media>

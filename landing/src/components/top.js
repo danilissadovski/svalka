@@ -28,12 +28,12 @@ class Top extends React.Component {
     }
     render() {
         return (
-            <Navbar dark expand="md">
+            <Navbar dark expand="md" className="px-0">
                 <Container fluid>
                     <img src={logo} height = "60px" width = "60px" className="logo-fix"/>
-                    <NavbarBrand className="text-fix px-lg-2">
-                        <h1 className="header">SVALKA</h1>
-                        <p className="text-style-for-header">Important claim here</p>
+                    <NavbarBrand className="text-fix">
+                        <NavbarBrand className="footer-header">SVALKA</NavbarBrand>
+                        <p className="text-style-for-footer">Important claim here</p>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>

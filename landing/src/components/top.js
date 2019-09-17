@@ -10,7 +10,7 @@ import {
     Container,
     Button
 } from "reactstrap";
-import logo from './../images/logo.jpeg';
+import logo from './../images/logo3.jpg';
 
 class Top extends React.Component {
     constructor(props) {
@@ -28,26 +28,28 @@ class Top extends React.Component {
     }
     render() {
         return (
-            <Navbar dark expand="md">
+            <Navbar dark expand="md" className="px-2">
                 <Container fluid>
                     <img src={logo} height = "60px" width = "60px" className="logo-fix"/>
-                    <NavbarBrand className="text-fix px-lg-2">
-                        <h1 className="header">SVALKA</h1>
-                        <p className="text-style-for-header">Important claim here</p>
+                    <NavbarBrand className="text-fix">
+                        <NavbarBrand className="footer-header">SVALKA</NavbarBrand>
+                        <p className="text-style-for-footer">Important claim here</p>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
-                            <NavItem>
+                            <NavItem className="px-lg-3">
                                 <NavLink href="#">Shortcut1</NavLink>
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="px-lg-3">
                                 <NavLink href="#">Shortcut2</NavLink>
                             </NavItem>
-                            <NavItem>
+                            <NavItem className="px-lg-3">
                                 <NavLink href="#">Shortcut3</NavLink>
                             </NavItem>
-                            <Button color="primary" className="ml-1">Get Started</Button>{" "}
+                            <div className="px-lg-3">
+                                <Button color="primary" className="">Get Started</Button>{" "}
+                            </div>
                         </Nav>
                     </Collapse>
                 </Container>

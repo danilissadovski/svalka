@@ -9,18 +9,27 @@
     color: rgba(43, 41, 45, 1);
 }
 
+.some-fix-for-shortcuts{
+    padding-left: 5%;
+}
+
 .logo-fix{
     border-radius: 13px;
 }
 
 .text-fix{
     line-height: 0.1%;
+    padding-left: 1%;
 }
 
 .text-style-for-header {
     font-family: Monaco;
     font-size: 1em;
     color: rgba(43, 41, 45, 0.6);
+}
+
+.style-for-button {
+    border-radius: 2px;
 }
 
 .heading-for-the-first-block {
@@ -36,6 +45,7 @@
 
 .text-for-the-first-block {
     font-family: Monaco;
+    padding-top: 4%;
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
@@ -57,6 +67,7 @@
 }
 
 .text-for-the-second-block {
+    padding-left: 1em;
     color: rgba(43, 41, 45, 0.9);
 }
 
@@ -75,8 +86,8 @@
 }
 
 .container-fluid {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .bg{
@@ -92,16 +103,20 @@
 }
 
 .image-fix{
-    padding-left: 10%;
+    padding-left: 20%;
 }
 
 .padding-for-the-third-block{
-    padding-top: 4.5%;
+    padding-top: 0.65%;
+}
+
+.padding-for-the-text{
+    padding-left: 2.8%;
 }
 
 .heading-for-the-third-block {
     font-family: Monaco;
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -112,11 +127,81 @@
 
 .text-for-the-third-block {
     font-family: Monaco;
-    font-size: 22px;
+    font-size: 1.4em;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.45;
     letter-spacing: normal;
     color: rgba(43, 41, 45, 0.9);
+}
+
+.text-for-footer {
+    font-family: Monaco;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.shortcuts-for-footer {
+    font-family: Monaco;
+    font-size: 0.9em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.5;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.Terms-Privacy-Licens-styles {
+    font-family: WorkSans;
+    font-size: 0.9em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.text-fix-2{
+    line-height: 9px;
+}
+
+.footer-header {
+    font-family: Monaco;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    color: rgba(43, 41, 45, 1);
+}
+
+.text-style-for-footer {
+    font-family: Monaco;
+    font-size: 0.8em;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.padding-for-the-footer{
+    padding-left: 2.75%;
+}
+
+.bg-for-footer{
+    background-color: #ffffff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 8%;
+}
+
+
+.social-button div {
+    margin-right: 5px;
 }

@@ -5,6 +5,7 @@ import Content from "./components/content";
 import Content2 from "./components/content2";
 import Intro from "./components/intro";
 import Top from "./components/top";
+import Footer from "./components/footer";
 
 class App extends Component {
 
@@ -12,6 +13,7 @@ class App extends Component {
     return (
         <div>
             <Helmet>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <style>{'body { background-color: #f08b77; }'}</style>
             </Helmet>
             <Top/>
@@ -20,6 +22,7 @@ class App extends Component {
             </div>
             <Content/>
             <Content2/>
+            <Footer/>
         </div>
     );
   }

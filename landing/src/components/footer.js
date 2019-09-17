@@ -8,7 +8,6 @@ import {
     NavLink,
     NavbarBrand
 } from 'reactstrap';
-import logo from './../images/logo.jpeg';
 import { ReactComponent as TwitterIcon } from './../icons/twitter.svg';
 import { ReactComponent as FacebookIcon } from './../icons/fb.svg';
 import { ReactComponent as InstagramIcon } from './../icons/ln.svg';
@@ -18,9 +17,6 @@ const Footer = () => {
         <Container fluid className="footer bg-for-footer">
             <Row>
                 <Media body className="col-lg-4 p-name row padding-for-the-footer">
-                    <NavbarBrand href="#">
-                        <img src={logo} height = "48px" width = "48px" className="logo-fix"/>
-                    </NavbarBrand>
                     <div className="text-fix-2">
                         <NavbarBrand className="footer-header">SVALKA</NavbarBrand>
                         <p className="text-style-for-footer">Important claim here</p>
